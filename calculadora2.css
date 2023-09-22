@@ -1,0 +1,64 @@
+body{
+  background: rgb(34, 32, 72);
+  background: linear-gradient(90deg, rgba(34,32,72,1) 6%, rgba(27,27,109,1)40%, rgba(7,17,20,1)100%);  
+}
+
+h1{
+    text-align: center;
+    background-image: url(./imagem/shutterstock_739595833-min.jpg);
+    color: white;
+    border-radius: 2%;
+    margin: 0%;
+    border: 2px double black;
+    text-shadow: darkblue 4px 2px;
+}
+
+.calculadora{
+    position: absolute;
+    border: 3px solid rgb(11, 11, 95);
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 600px auto 620px;
+    background-image: url(./imagem/shutterstock_739595833-min.jpg);
+    padding: 20px;
+}
+
+.botao{ 
+    border-radius: 20%;
+    color: white;
+    background-color: rgba(0, 0, 139, 0.608);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px double rgb(4, 4, 45);
+    cursor: pointer;
+    margin: 3px;
+    padding: 0%;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.505);
+}
+
+p{
+    background-color: rgba(0, 0, 139, 0.608);
+    width: 240px;
+    height: 30px;
+    border-radius: 2%;
+    border: 2px solid rgb(4, 4, 45);
+    color: white;
+    font-size: 20px;
+    font-size: larger;
+    text-align: right;
+    padding: 3px;
+}
+
+a{
+    font-size: 20px;
+    color: rgb(11, 11, blue);
+    text-shadow: rgb(11, 11, 118) 2px 1px;
+    cursor: pointer;
+}
+a:hover{
+    color: rgba(5, 5, 42, 0.539);
+}
